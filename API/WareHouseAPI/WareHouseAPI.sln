@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WareHouseAPI", "WareHouseAPI\WareHouseAPI.csproj", "{E6F98AF8-5EF8-4FED-B974-1713C81034CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse.Data", "Warehouse.Data\Warehouse.Data.csproj", "{0E431B93-AF2C-41EF-9C14-1B7DC811C847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse.Models", "Warehouse.Models\Warehouse.Models.csproj", "{7991235E-F93E-4E59-9945-FECD88732C2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E6F98AF8-5EF8-4FED-B974-1713C81034CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6F98AF8-5EF8-4FED-B974-1713C81034CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6F98AF8-5EF8-4FED-B974-1713C81034CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E431B93-AF2C-41EF-9C14-1B7DC811C847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E431B93-AF2C-41EF-9C14-1B7DC811C847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E431B93-AF2C-41EF-9C14-1B7DC811C847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E431B93-AF2C-41EF-9C14-1B7DC811C847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7991235E-F93E-4E59-9945-FECD88732C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7991235E-F93E-4E59-9945-FECD88732C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7991235E-F93E-4E59-9945-FECD88732C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7991235E-F93E-4E59-9945-FECD88732C2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
