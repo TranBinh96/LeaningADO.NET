@@ -1,0 +1,41 @@
+<div class="container">
+  <h2>List warehouse</h2>
+  <div class="d-flex justify-content-end mt-3">
+    <a [routerLink]="['/admin/warehouse/add']" class="btn btn-primary">Add Warehouse</a>
+
+  </div>
+  <ng-container *ngIf="warehouse$ | async as warehouses">
+    <table class="table table-striped" id="wareTable">
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>Ware Name</th>
+        <th>Display</th>
+        <th>Note</th>
+        <th>Created By</th>
+        <th>Created Date</th>
+        <th>Updated Date</th>
+        <th>Edit</th>
+
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let ware of warehouses">
+        <td>{{ ware.id }}</td>
+        <td>{{ ware.wareName }}</td>
+        <td>{{ ware.display }}</td>
+        <td>{{ ware.note }}</td>
+        <td>{{ ware.createdBy }}</td>
+        <td>{{ ware.createdDate }}</td>
+        <td>{{ ware.updatedDate }}</td>
+        <td>
+          <button class="btn btn-warning " [routerLink]="['/admin/warehouse', ware.id] " >Update</button>
+        </td>
+        <td>
+          <button class="btn btn-danger" (click)="onDelete(ware.id)" >Delete</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </ng-container>
+</div>
