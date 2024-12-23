@@ -1,0 +1,961 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "QL_KhoApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Kho": {
+      "get": {
+        "tags": [
+          "Kho"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Kho"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateKhoRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateKhoRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateKhoRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Kho/{id}": {
+      "get": {
+        "tags": [
+          "Kho"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Kho"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateKhoRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateKhoRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateKhoRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Kho"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/NCC": {
+      "get": {
+        "tags": [
+          "NCC"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "NCC"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNhaCCRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNhaCCRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNhaCCRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/NCC/{id}": {
+      "get": {
+        "tags": [
+          "NCC"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "NCC"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNhaCCRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNhaCCRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNhaCCRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "NCC"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/NhapKho": {
+      "get": {
+        "tags": [
+          "NhapKho"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "NhapKho"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhapKhoRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhapKhoRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhapKhoRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "NhapKho"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhapKhoRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhapKhoRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhapKhoRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/NhapKho/{id}": {
+      "delete": {
+        "tags": [
+          "NhapKho"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "NhapKho"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/NhomSanPham": {
+      "get": {
+        "tags": [
+          "NhomSanPham"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "NhomSanPham"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhomSanPhamRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhomSanPhamRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhomSanPhamRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/NhomSanPham/{id}": {
+      "get": {
+        "tags": [
+          "NhomSanPham"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "NhomSanPham"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhomSanPhamRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhomSanPhamRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NhomSanPhamRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "NhomSanPham"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SanPham": {
+      "get": {
+        "tags": [
+          "SanPham"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "SanPham"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SanPhamRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SanPhamRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SanPhamRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SanPham/{id}": {
+      "get": {
+        "tags": [
+          "SanPham"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "SanPham"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SanPhamRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SanPhamRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SanPhamRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "SanPham"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateKhoRequestDto": {
+        "type": "object",
+        "properties": {
+          "ten_kho": {
+            "type": "string",
+            "nullable": true
+          },
+          "hien_thi": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghi_chu": {
+            "type": "string",
+            "nullable": true
+          },
+          "nguoi_tao": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngay_tao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "cap_nhat": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateNhaCCRequestDto": {
+        "type": "object",
+        "properties": {
+          "ten_ncc": {
+            "type": "string",
+            "nullable": true
+          },
+          "hien_thi": {
+            "type": "string",
+            "nullable": true
+          },
+          "ten_day_du": {
+            "type": "string",
+            "nullable": true
+          },
+          "loai_ncc": {
+            "type": "string",
+            "nullable": true
+          },
+          "logo": {
+            "type": "string",
+            "nullable": true
+          },
+          "nguoi_dai_dien": {
+            "type": "string",
+            "nullable": true
+          },
+          "sdt": {
+            "type": "string",
+            "nullable": true
+          },
+          "tinh_trang": {
+            "type": "string",
+            "nullable": true
+          },
+          "nv_phu_trach": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghi_chu": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngay_tao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ngay_cap_nhat": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "NhapKhoCTRequestDto": {
+        "type": "object",
+        "properties": {
+          "nhap_kho_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngay_nhap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "san_pham_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nhom_san_pham": {
+            "type": "string",
+            "nullable": true
+          },
+          "hang_sx": {
+            "type": "string",
+            "nullable": true
+          },
+          "hinh_anh": {
+            "type": "string",
+            "nullable": true
+          },
+          "thong_tin": {
+            "type": "string",
+            "nullable": true
+          },
+          "han_su_dung": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "quy_cach": {
+            "type": "string",
+            "nullable": true
+          },
+          "dvt": {
+            "type": "string",
+            "nullable": true
+          },
+          "so_lo": {
+            "type": "string",
+            "nullable": true
+          },
+          "gia_nhap": {
+            "type": "number",
+            "format": "float"
+          },
+          "sl_nhap": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sl_xuat": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sl_ton": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngay_het_han": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ghi_chu": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngay_tao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ngay_cap_nhat": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nguoi_tao": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NhapKhoRequestDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "loai_nhap": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngay_nhap": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ncc_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kho_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sl_nhap": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nguoi_giao": {
+            "type": "string",
+            "nullable": true
+          },
+          "noi_dung_nhap": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngay_tao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ngay_cap_nhat": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nguoi_tao": {
+            "type": "string",
+            "nullable": true
+          },
+          "nhapKhoCTs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NhapKhoCTRequestDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NhomSanPhamRequestDto": {
+        "type": "object",
+        "properties": {
+          "loai_san_pham": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SanPhamRequestDto": {
+        "type": "object",
+        "properties": {
+          "ten_san_pham": {
+            "type": "string",
+            "nullable": true
+          },
+          "hien_thi": {
+            "type": "string",
+            "nullable": true
+          },
+          "hang_sx": {
+            "type": "string",
+            "nullable": true
+          },
+          "hinh_anh": {
+            "type": "string",
+            "nullable": true
+          },
+          "dia_chi": {
+            "type": "string",
+            "nullable": true
+          },
+          "thong_tin": {
+            "type": "string",
+            "nullable": true
+          },
+          "han_su_dung": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "quy_cach": {
+            "type": "string",
+            "nullable": true
+          },
+          "dvt": {
+            "type": "string",
+            "nullable": true
+          },
+          "gia_nhap": {
+            "type": "number",
+            "format": "float"
+          },
+          "sl_toi_thieu": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sl_toi_da": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sl_nhap": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sl_xuat": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sl_ton": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "trang_thai": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghi_chu": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngay_tao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ngay_cap_nhat": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nguoi_tao": {
+            "type": "string",
+            "nullable": true
+          },
+          "nhom_san_pham_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

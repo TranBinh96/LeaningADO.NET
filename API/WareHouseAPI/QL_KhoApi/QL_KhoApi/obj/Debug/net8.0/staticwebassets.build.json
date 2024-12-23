@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "wZcV5PqFjVnyFuoNv8dfHESRmqfc+qEqZRBNJCjqmsM=",
+  "Source": "QL_KhoApi",
+  "BasePath": "_content/QL_KhoApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

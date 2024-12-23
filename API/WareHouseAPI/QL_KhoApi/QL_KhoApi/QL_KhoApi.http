@@ -1,0 +1,6 @@
+@QL_KhoApi_HostAddress = http://localhost:5259
+
+GET {{QL_KhoApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QL_KhoApi", "QL_KhoApi\QL_KhoApi.csproj", "{8A9AEBE8-9182-4E54-AB08-3AAB66A8F718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLKho.Data", "QLKho.Data\QLKho.Data.csproj", "{B8A02422-8D57-4769-870A-1AC9096F8216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLKho.Models", "QLKho.Models\QLKho.Models.csproj", "{EBD56970-6207-4348-9446-DCA1F4016280}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A9AEBE8-9182-4E54-AB08-3AAB66A8F718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A9AEBE8-9182-4E54-AB08-3AAB66A8F718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A9AEBE8-9182-4E54-AB08-3AAB66A8F718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A9AEBE8-9182-4E54-AB08-3AAB66A8F718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A02422-8D57-4769-870A-1AC9096F8216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A02422-8D57-4769-870A-1AC9096F8216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A02422-8D57-4769-870A-1AC9096F8216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A02422-8D57-4769-870A-1AC9096F8216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD56970-6207-4348-9446-DCA1F4016280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD56970-6207-4348-9446-DCA1F4016280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD56970-6207-4348-9446-DCA1F4016280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD56970-6207-4348-9446-DCA1F4016280}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

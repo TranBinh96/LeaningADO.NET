@@ -1,0 +1,16 @@
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\bin\Debug\net8.0\QLKho.Data.deps.json
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\bin\Debug\net8.0\QLKho.Data.dll
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\bin\Debug\net8.0\QLKho.Data.pdb
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\bin\Debug\net8.0\QLKho.Models.dll
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\bin\Debug\net8.0\QLKho.Models.pdb
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\obj\Debug\net8.0\QLKho.Data.csproj.AssemblyReference.cache
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\obj\Debug\net8.0\QLKho.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\obj\Debug\net8.0\QLKho.Data.AssemblyInfoInputs.cache
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\obj\Debug\net8.0\QLKho.Data.AssemblyInfo.cs
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\obj\Debug\net8.0\QLKho.Data.csproj.CoreCompileInputs.cache
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\obj\Debug\net8.0\QLKho.Data.csproj.Up2Date
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\obj\Debug\net8.0\QLKho.Data.dll
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\obj\Debug\net8.0\refint\QLKho.Data.dll
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\obj\Debug\net8.0\QLKho.Data.pdb
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\obj\Debug\net8.0\ref\QLKho.Data.dll
+C:\Users\BINHTT\Desktop\Angular\Learning-Angular\Api\QL_KhoApi\QLKho.Data\obj\Debug\net8.0\QLKho.Data.sourcelink.json

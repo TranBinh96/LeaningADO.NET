@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59c4c786-954d-4325-957a-09e7629f3447" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/QLKho.Data/obj/Debug/net8.0/QLKho.Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLKho.Data/obj/Debug/net8.0/QLKho.Data.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLKho.Data/obj/Debug/net8.0/QLKho.Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QLKho.Data/obj/Debug/net8.0/QLKho.Data.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLKho.Models/obj/Debug/net8.0/QLKho.Models.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLKho.Models/obj/Debug/net8.0/QLKho.Models.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLKho.Models/obj/Debug/net8.0/QLKho.Models.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QLKho.Models/obj/Debug/net8.0/QLKho.Models.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QL_KhoApi/obj/Debug/net8.0/QL_KhoApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QL_KhoApi/obj/Debug/net8.0/QL_KhoApi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QL_KhoApi/obj/Debug/net8.0/QL_KhoApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QL_KhoApi/obj/Debug/net8.0/QL_KhoApi.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2qI5AxxrUw8LgLINhjn0A4lRQtN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59c4c786-954d-4325-957a-09e7629f3447" name="Changes" comment="" />
+      <created>1734337111006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734337111006</updated>
+      <workItem from="1734337112446" duration="4000" />
+      <workItem from="1734337135260" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
