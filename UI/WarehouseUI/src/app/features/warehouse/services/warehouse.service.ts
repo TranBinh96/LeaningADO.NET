@@ -22,13 +22,13 @@ export class WarehouseService {
   }
 
   addWarehouse(model: AddWarehouseRequest): Observable<void> {
-    return this.http.post<void>(`${environment.apiBaseUrl}/api/ware`, model);
+    return this.http.post<void>(`${environment.apiBaseUrl}/api/ware?addAuth=true`, model);
   }
   updateWarehouse(id: number, updateCategoryRequest: UpdateWarehouseRequest): Observable<Warehouse> {
-    return this.http.put<Warehouse>(`${environment.apiBaseUrl}/api/ware/${id}`, updateCategoryRequest);
+    return this.http.put<Warehouse>(`${environment.apiBaseUrl}/api/ware/${id}?addAuth=true`, updateCategoryRequest);
   }
   deleteWarehouse(id: number): Observable<Warehouse> {
-    return this.http.delete<Warehouse>(`${environment.apiBaseUrl}/api/ware/${id}`)
+    return this.http.delete<Warehouse>(`${environment.apiBaseUrl}/api/ware/${id}?addAuth=true`)
   }
 
 }

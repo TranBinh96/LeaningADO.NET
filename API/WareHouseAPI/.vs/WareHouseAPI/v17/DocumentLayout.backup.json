@@ -7,24 +7,12 @@
       "RelativeMoniker": "D:0:0:{E6F98AF8-5EF8-4FED-B974-1713C81034CC}|WareHouseAPI\\WareHouseAPI.csproj|solutionrelative:warehouseapi\\controllers\\warecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7991235E-F93E-4E59-9945-FECD88732C2E}|Warehouse.Models\\Warehouse.Models.csproj|c:\\users\\binhtt\\desktop\\vietpt\\leaningado.net\\api\\warehouseapi\\warehouse.models\\dto\\waredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7991235E-F93E-4E59-9945-FECD88732C2E}|Warehouse.Models\\Warehouse.Models.csproj|solutionrelative:warehouse.models\\dto\\waredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6F98AF8-5EF8-4FED-B974-1713C81034CC}|WareHouseAPI\\WareHouseAPI.csproj|c:\\users\\binhtt\\desktop\\vietpt\\leaningado.net\\api\\warehouseapi\\warehouseapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F98AF8-5EF8-4FED-B974-1713C81034CC}|WareHouseAPI\\WareHouseAPI.csproj|solutionrelative:warehouseapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6F98AF8-5EF8-4FED-B974-1713C81034CC}|WareHouseAPI\\WareHouseAPI.csproj|c:\\users\\binhtt\\desktop\\vietpt\\leaningado.net\\api\\warehouseapi\\warehouseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6F98AF8-5EF8-4FED-B974-1713C81034CC}|WareHouseAPI\\WareHouseAPI.csproj|solutionrelative:warehouseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E431B93-AF2C-41EF-9C14-1B7DC811C847}|Warehouse.Data\\Warehouse.Data.csproj|c:\\users\\binhtt\\desktop\\vietpt\\leaningado.net\\api\\warehouseapi\\warehouse.data\\reponsitories\\interface\\warerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E431B93-AF2C-41EF-9C14-1B7DC811C847}|Warehouse.Data\\Warehouse.Data.csproj|solutionrelative:warehouse.data\\reponsitories\\interface\\warerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7991235E-F93E-4E59-9945-FECD88732C2E}|Warehouse.Models\\Warehouse.Models.csproj|c:\\users\\binhtt\\desktop\\vietpt\\leaningado.net\\api\\warehouseapi\\warehouse.models\\domain\\ware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7991235E-F93E-4E59-9945-FECD88732C2E}|Warehouse.Models\\Warehouse.Models.csproj|solutionrelative:warehouse.models\\domain\\ware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6F98AF8-5EF8-4FED-B974-1713C81034CC}|WareHouseAPI\\WareHouseAPI.csproj|c:\\users\\binhtt\\desktop\\vietpt\\leaningado.net\\api\\warehouseapi\\warehouseapi\\warehouseapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{E6F98AF8-5EF8-4FED-B974-1713C81034CC}|WareHouseAPI\\WareHouseAPI.csproj|solutionrelative:warehouseapi\\warehouseapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{0E431B93-AF2C-41EF-9C14-1B7DC811C847}|Warehouse.Data\\Warehouse.Data.csproj|c:\\users\\binhtt\\desktop\\vietpt\\leaningado.net\\api\\warehouseapi\\warehouse.data\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E431B93-AF2C-41EF-9C14-1B7DC811C847}|Warehouse.Data\\Warehouse.Data.csproj|solutionrelative:warehouse.data\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,44 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ware.cs",
-              "DocumentMoniker": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\Warehouse.Models\\Domain\\Ware.cs",
-              "RelativeDocumentMoniker": "Warehouse.Models\\Domain\\Ware.cs",
-              "ToolTip": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\Warehouse.Models\\Domain\\Ware.cs",
-              "RelativeToolTip": "Warehouse.Models\\Domain\\Ware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T07:00:18.909Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\WareHouseAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WareHouseAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\WareHouseAPI\\Program.cs",
-              "RelativeToolTip": "WareHouseAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\Warehouse.Data\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "Warehouse.Data\\Data\\AuthDbContext.cs",
+              "ToolTip": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\Warehouse.Data\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "Warehouse.Data\\Data\\AuthDbContext.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDoAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T08:02:15.965Z",
+              "WhenOpened": "2024-12-25T08:23:24.742Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WareRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\Warehouse.Data\\Reponsitories\\Interface\\WareRepository.cs",
-              "RelativeDocumentMoniker": "Warehouse.Data\\Reponsitories\\Interface\\WareRepository.cs",
-              "ToolTip": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\Warehouse.Data\\Reponsitories\\Interface\\WareRepository.cs",
-              "RelativeToolTip": "Warehouse.Data\\Reponsitories\\Interface\\WareRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowBYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:57:18.546Z"
             },
             {
               "$type": "Document",
@@ -79,36 +43,24 @@
               "Title": "WareController.cs",
               "DocumentMoniker": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\WareHouseAPI\\Controllers\\WareController.cs",
               "RelativeDocumentMoniker": "WareHouseAPI\\Controllers\\WareController.cs",
-              "ToolTip": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\WareHouseAPI\\Controllers\\WareController.cs",
-              "RelativeToolTip": "WareHouseAPI\\Controllers\\WareController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAawDYAAAAIAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\WareHouseAPI\\Controllers\\WareController.cs*",
+              "RelativeToolTip": "WareHouseAPI\\Controllers\\WareController.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T08:00:18.683Z",
+              "WhenOpened": "2024-12-25T07:46:06.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WareHouseAPI.http",
-              "DocumentMoniker": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\WareHouseAPI\\WareHouseAPI.http",
-              "RelativeDocumentMoniker": "WareHouseAPI\\WareHouseAPI.http",
-              "ToolTip": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\WareHouseAPI\\WareHouseAPI.http",
-              "RelativeToolTip": "WareHouseAPI\\WareHouseAPI.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-12-18T07:58:35.78Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WareDto.cs",
-              "DocumentMoniker": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\Warehouse.Models\\DTO\\WareDto.cs",
-              "RelativeDocumentMoniker": "Warehouse.Models\\DTO\\WareDto.cs",
-              "ToolTip": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\Warehouse.Models\\DTO\\WareDto.cs",
-              "RelativeToolTip": "Warehouse.Models\\DTO\\WareDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\WareHouseAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WareHouseAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\BINHTT\\Desktop\\VIETPT\\LeaningADO.NET\\API\\WareHouseAPI\\WareHouseAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WareHouseAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwDkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:55:41.962Z",
+              "WhenOpened": "2024-12-25T07:46:06.682Z",
               "EditorCaption": ""
             }
           ]

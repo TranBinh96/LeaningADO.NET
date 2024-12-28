@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Warehouse.Data.Reponsitories.Implements;
@@ -9,6 +10,7 @@ namespace WareHouseAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+  /*  [Authorize(Roles = "Writer")]*/
     public class WareController : ControllerBase
     {
         private readonly IUnitWork _unitWork;

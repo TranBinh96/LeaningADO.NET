@@ -12,12 +12,14 @@ namespace Warehouse.Data.Reponsitories.Interface
     {
         private readonly ApplicationDbContext _db;
         public IWareRepository wareRepository { get; private set; }
-        
+       
+
         public UnitWork(ApplicationDbContext db)
         {
             _db = db;
             wareRepository = new WareRepository(_db);
            
+
         }
     }
 }

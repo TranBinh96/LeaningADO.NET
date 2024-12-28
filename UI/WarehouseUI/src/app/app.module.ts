@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
+import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -9,6 +9,8 @@ import {NavbarComponent} from "./core/conponents/navbar/navbar.component";
 import { WarehouseListComponent } from './features/warehouse/warehouse-list/warehouse-list.component';
 import { AddWarehouseComponent } from './features/warehouse/add-warehouse/add-warehouse/add-warehouse.component';
 import { EditWarehouseComponent } from './features/warehouse/edit-warehouse/edit-warehouse.component';
+import {LoginComponent} from "./features/auth/login/login.component";
+import {AuthInterceptor} from "./core/interceptors/auth.interceptor";
 
 @NgModule({
   declarations: [
@@ -17,7 +19,7 @@ import { EditWarehouseComponent } from './features/warehouse/edit-warehouse/edit
     WarehouseListComponent,
     AddWarehouseComponent,
     EditWarehouseComponent,
-
+    LoginComponent,
   ],
     imports: [
         BrowserModule,
@@ -25,7 +27,13 @@ import { EditWarehouseComponent } from './features/warehouse/edit-warehouse/edit
         HttpClientModule,
         FormsModule
     ],
-  providers: [],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: AuthInterceptor,
+      multi: true
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

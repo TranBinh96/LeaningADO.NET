@@ -9,5 +9,6 @@ namespace Warehouse.Data.Reponsitories.Implements
     public interface IUnitWork
     {
         IWareRepository wareRepository { get; }
+       
     }
 }
